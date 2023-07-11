@@ -57,8 +57,7 @@ class _LoginPageState extends State<LoginPage> {
                   onPressed: () {
                     if (email == "eronaldo.marques96@gmail.com" &&
                         passWord == '123') {
-                      Navigator.of(context).pushReplacement(
-                          MaterialPageRoute(builder: (context) => HomePage()));
+                      Navigator.of(context).pushReplacementNamed('/home');
                     }
                   },
                   child: Text('Entrar'),
