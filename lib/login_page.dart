@@ -1,7 +1,6 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors, avoid_print, sized_box_for_whitespace, sort_child_properties_last, avoid_unnecessary_containers
 
 import 'package:flutter/material.dart';
-import 'package:ireview/home_page.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
