@@ -18,6 +18,9 @@ class HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: Drawer(
+        child: Column(children: [ListTile()]),
+      ),
       appBar: AppBar(
         title: Center(
           child: Text('Home Page'),
